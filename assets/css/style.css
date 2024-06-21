@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(233, 237, 238);
+
+}
+
+#logo-header {
+    width: 100%;
+    background-color: rgb(34, 47, 63);
+}
+
+#logo {
+    width: 120px;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+nav {
+    background-color: rgb(54, 71, 89);
+    margin-bottom: 30px;
+}
+
+nav ul {
+    color: white;
+    margin-left: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 10px;
+    font-size: 0.8rem;
+    padding: 5px;
+}
+
+main {
+    margin: 20px;
+    background-color: rgb(233, 237, 238);
+}
+
+.orange {
+    background-color: rgb(245, 102, 0);
+    margin-bottom: 30px;
+    height: 1.5em;
+}
+
+.orange p {
+    text-align: center;
+    color: white;
+    font-size: 0.8em;
+    line-height: 2em;
+}
+
+.background {
+    background-image: url(/assets/img/bg-image.png);
+    height: 10em;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 30px;
+}
+
+.background h1,
+h2 {
+    text-align: center;
+    color: white;
+    line-height: 2em;
+}
+
+.background h1 {
+    font-size: 1.8rem;
+    padding-top: 45px;
+}
+
+.image-carousel {
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.image-carousel h2 {
+    color: black;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.carousel1 {
+    display: inline-block;
+    width: 22%;
+    height: 350px;
+    border-radius: 20px;
+    margin: 15px;
+    background-image: url(/assets/img/img_1.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 3px 3px 20px rgb(167, 166, 166);
+}
+
+.carousel2 {
+    display: inline-block;
+    width: 22%;
+    height: 350px;
+    border-radius: 20px;
+    margin: 15px;
+    background-image: url(/assets/img/img_2.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 3px 3px 20px rgb(167, 166, 166);
+}
+
+.carousel3 {
+    display: inline-block;
+    width: 22%;
+    height: 350px;
+    border-radius: 20px;
+    margin: 15px;
+    background-image: url(/assets/img/img_3.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 3px 3px 20px rgb(167, 166, 166);
+}
+
+.carousel4 {
+    display: inline-block;
+    width: 22%;
+    height: 350px;
+    border-radius: 20px;
+    margin: 15px;
+    background-image: url(/assets/img/img_4.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 3px 3px 20px rgb(167, 166, 166);
+}
+
+.image-carousel span {
+    color: rgb(11, 90, 94);
+    font-size: 0.7em;
+    margin-left: 10px;
+    font-weight: bolder;
+}
+
+.image-carousel h2 {
+    padding-top: 10px;
+    color: rgb(14, 14, 14);
+    text-align: left;
+}
+
+.VR-Headset {
+    width: 100%;
+}
+
+.headset {
+    color: rgb(14, 14, 14);
+    margin-bottom: 30px;
+}
+
+.headset span {
+    color: rgb(11, 90, 94);
+    font-size: 0.7em;
+    margin-left: 10px;
+    font-weight: bolder;
+}
+
+.Speakers {
+    width: 100%;
+}
+
+.speakers1 {
+    color: rgb(14, 14, 14);
+    margin-bottom: 30px;
+}
+
+.speakers1 span {
+    color: rgb(11, 90, 94);
+    font-size: 0.7em;
+    margin-left: 10px;
+    font-weight: bolder;
+}
+
+.anchor {
+    background-color: rgb(54, 71, 89);
+    text-align: center;
+    padding: 10px;
+}
+
+.anchor a {
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.anchor a:visited {
+    color: white;
+}
+
+footer {
+    background-color: rgb(34, 47, 63);
+    height: 10em;
+}
+
+.logo-footer {
+    width: 160px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 70px;
+}
