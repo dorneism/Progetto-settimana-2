@@ -80,6 +80,7 @@ console.log(cars)
 /* ESERCIZIO 7
     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
 */
+
 const justTrims = []
 
 
@@ -112,3 +113,68 @@ while (indice < numericArray.length) {
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ['g', 'n', 'u', 'z', 'd']
+switch (charactersArray) {
+  case 0: a === 0;
+    console.log(a = 0);
+    break;
+  case 1: b === 1;
+    console.log(b = 1);
+    break;
+  case 2: c === 2;
+    console.log(c = 2);
+    break;
+  case 3: d === 3;
+    console.log(d = 3);
+    break;
+  case 4: e === 4;
+    console.log(e = 4);
+    break;
+  case 5: f === 5;
+    console.log(f = 5);
+    break;
+  case 6: g === 6;
+    console.log(g = 6);
+    break;
+  case 7: h === 7;
+    console.log(h = 7);
+    break;
+  case 8: i === 8;
+    console.log(i = 8);
+    break;
+  case 9: l === 9;
+    console.log(l = 9);
+    break;
+  case 10: m === 10;
+    console.log(m = 10);
+    break;
+  case 11: n === 11;
+    console.log(n = 11);
+    break;
+  case 12: o === 12;
+    console.log(o = 12);
+    break;
+  case 13: p === 13;
+    console.log(p = 13);
+    break;
+  case 14: q === 14;
+    console.log(q = 14);
+    break;
+  case 15: r === 15;
+    console.log(r = 15);
+    break;
+  case 16: s === 16;
+    console.log(s = 16);
+    break;
+  case 17: t === 17;
+    console.log(t = 17);
+    break;
+  case 18: u === 18;
+    console.log(u = 18);
+    break;
+  case 19: v === 19;
+    console.log(v = 19);
+    break;
+  case 20: z === 20;
+    console.log(z = 20);
+    break;
+}
