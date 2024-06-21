@@ -57,6 +57,7 @@ const cars = [
     trims: ['life', 'style', 'r-line'],
   },
 ]
+
 for (i = 0; i < cars.length; i++) {
   cars[i].licensePlate = "xyz 123456 xy";
   console.log(cars);
@@ -80,14 +81,14 @@ console.log(cars)
     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
 */
 const justTrims = []
-for (i = 0; i < cars.length; i++) {
-  cars.
-}
+
 
 /* ESERCIZIO 8
     Cicla l'array "cars" e costruisci un if/else statament per mostrare due diversi messaggi in console. Se la prima lettera della proprietà
     "color" ha valore "b", mostra in console "Fizz". Altrimenti, mostra in console "Buzz".
 */
+
+
 
 /* ESERCIZIO 9
     Utilizza un ciclo while per stampare in console i valori del seguente array numerico fino al raggiungimento del numero 32.
@@ -95,6 +96,15 @@ for (i = 0; i < cars.length; i++) {
 const numericArray = [
   6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105,
 ]
+let indice = 0;
+
+while (indice < numericArray.length) {
+  console.log(numericArray[indice]);
+  if (numericArray[indice] === 32) {
+    break;
+  }
+  indice++;
+}
 
 /* ESERCIZIO 10
     Partendo dall'array fornito e utilizzando un costrutto switch, genera un nuovo array composto dalle posizioni di ogni carattere all'interno
